@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button">
+        <item name="android:layout_width">
+           @dimen/buttonW
+        </item>
+
+        <item name="android:layout_height">
+            @dimen/buttonH
+        </item>
+
+        <item name="backgroundTint">
+            @color/button
+        </item>
+
+        <item name="cornerRadius">
+            @dimen/corners
+        </item>
+
+        <item name="strokeWidth">
+            @dimen/stroke
+        </item>
+
+        <item name="strokeColor">
+            @color/stroke
+        </item>
+
+        <item name="android:textColor">
+            @color/stroke
+        </item>
+
+        <item name="android:textSize">
+            @dimen/buttonText
+        </item>
+    </style>
+    
+    <style name="text">
+        <item name="android:layout_width">
+            wrap_content
+        </item>
+
+        <item name="android:layout_height">
+            wrap_content
+        </item>
+
+        <item name="android:textSize">
+            @dimen/text
+        </item>
+
+        <item name="android:textColor">
+            @color/text
+        </item>
+    </style>
+</resources>
