@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="header1">Made in Abyss: Season 2</string>
+    <string name="header2">Toei will release 3 movies this year</string>
+    <string name="header3">Fire force is getting a season 3</string>
+    <string name="header4">Bubble by WIT studio is now streaming worldwide</string>
+    <string name="header5">Hyouka anime finally returns</string>
+    <string name="header6">Black clover manga will enter it\'s final arc</string>
+</resources>
