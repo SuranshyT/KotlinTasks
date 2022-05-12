@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="307dp"
+        android:layout_height="52dp"
+        app:boxStrokeColor="@color/edit_text_box_stroke"
+        app:boxStrokeErrorColor="@color/label"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:hintTextColor="@color/label"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="20dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType= "number"
+            android:hint="@string/inputHint"
+            android:textColorHint="@drawable/hint_selector" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:id="@+id/rectangle"
+        android:background="@drawable/rectangle"
+        style="@style/img"
+        app:layout_constraintStart_toEndOf="@+id/outlinedTextField"
+        app:layout_constraintTop_toTopOf="@+id/outlinedTextField"
+        android:layout_marginStart="12dp"/>
+
+    <ImageView
+        android:id="@+id/flagImageView"
+        android:layout_width="52dp"
+        android:layout_height="28.55dp"
+        app:layout_constraintStart_toStartOf="@+id/rectangle"
+        app:layout_constraintTop_toTopOf="@+id/rectangle"
+        android:layout_marginTop="13dp"/>
+
+    <TextView
+        android:id="@+id/currencyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle"
+        app:layout_constraintTop_toBottomOf="@+id/outlinedTextField"
+        android:layout_marginTop="6dp"
+        android:textSize="22sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
