@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="kz">Тенге, Казахстан</string>
+    <string name="usa">Доллары, США</string>
+    <string name="tur">Лира, Турция</string>
+    <string name="eu">Евро, ЕС</string>
+    <string name="title">Converter</string>
+    <string name="buttonText">Добавить</string>
+    <string name="inputHint">5000</string>
+</resources>
